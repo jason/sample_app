@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    title 
+      | Ruby on Rails Sample App | 
+      = yield :title
+    = stylesheet_link_tag "stylesheet", :media=>"all"  
+    = javascript_include_tag "application"
+
+  body
+  = yield 

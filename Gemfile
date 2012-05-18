@@ -25,7 +25,7 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.0.0'
-
+gem 'slim'
 group :test do
   gem 'capybara', '1.1.2'
 end
@@ -48,3 +48,4 @@ end
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+gem "haml"
